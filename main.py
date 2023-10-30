@@ -10,7 +10,7 @@ COLORS = []
 
 
 class Balle:
-    def __init__(self, x, y, rayon, couleur):
+    def __init__(self, x, y, change_x, change_y, rayon, couleur):
         self.x = x
         self.y = y
         self.change_x = random.randint(-10, 10)
